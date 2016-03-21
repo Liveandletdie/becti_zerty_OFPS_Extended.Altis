@@ -3137,15 +3137,15 @@ _p = _p		+ [100];
 
 _i = _i		+ ["CUP_SOFLAM"];
 _u = _u		+ [2];
-_p = _p		+ [900];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_LRTV"];
 _u = _u		+ [2];
-_p = _p		+ [900];
+_p = _p		+ [400];
 
 _i = _i		+ ["CUP_Vector21Nite"];
-_u = _u		+ [1];
-_p = _p		+ [300];
+_u = _u		+ [0];
+_p = _p		+ [150];
 
 
 [_faction, _i, _u, _p] call compile preprocessFileLineNumbers "Common\Config\Gear\Gear_Config_Set.sqf";
